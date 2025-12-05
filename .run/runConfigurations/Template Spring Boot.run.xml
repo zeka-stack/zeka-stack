@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+        <option name="SPRING_BOOT_MAIN_CLASS"/>
+        <option name="VM_PARAMETERS"
+                value="-javaagent:$PROJECT_DIR$/../../../4.Tools/skywalking-agent/skywalking-agent.jar -Dskywalking.agent.service_name=zeka.stack -Dskywalking.collector.backend_service=192.168.31.120:11800"/>
+        <method v="2">
+            <option name="Make" enabled="true"/>
+        </method>
+    </configuration>
+</component>
