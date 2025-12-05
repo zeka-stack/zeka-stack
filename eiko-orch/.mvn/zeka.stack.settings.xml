@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <servers>
+        <!-- maven 公共仓库, 需要自行申请账号 -->
+        <server>
+            <!-- id 和 central-publishing-maven-plugin.publishingServerId 对应 -->
+            <id>central</id>
+            <username>${env.MVN_CENTRAL_USERNAME}</username>
+            <password>${env.MVN_CENTRAL_PASSWORD}</password>
+        </server>
+
+        <!-- 私服 snapshots, 与 distributionManagement 中的 id 对应 -->
+        <server>
+            <id>snapshots</id>
+            <username>${env.MVN_PRIVATE_USERNAME}</username>
+            <password>${env.MVN_PRIVATE_PASSWORD}</password>
+        </server>
+        <!-- 私服 releases, 与 distributionManagement 中的 id 对应 -->
+        <server>
+            <id>releases</id>
+            <username>${env.MVN_PRIVATE_USERNAME}</username>
+            <password>${env.MVN_PRIVATE_PASSWORD}</password>
+        </server>
+    </servers>
+
+    <profiles>
+        <profile>
+            <id>central</id>
+            <!-- 默认配置，其实 central 本来就是 Maven 默认的 repository -->
+        </profile>
+        <profile>
+            <id>private</id>
+            <repositories>
+                <!-- 只读：公开仓库（聚合仓库） @formatter:off-->
+                <repository>
+                    <!-- 这里的 id 随便写 -->
+                    <id>nexus-public</id>
+                    <url>${env.MVN_PRIVATE_PUBLIC_URL}</url>
+                    <releases><enabled>true</enabled></releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                        <!-- ✅ 永远不检查更新, 因为是多个独立的 maven 项目, 项目之间使用 <relativePath/> 来杜绝本地依赖查找, 导致每次使用 mvn 时都会从远端更新快照版本 所以这里设置为禁用更新  -->
+                        <updatePolicy>never</updatePolicy>
+                    </snapshots>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <!-- 插件仓库，同样走私服聚合仓库 -->
+                <pluginRepository>
+                    <!-- 这里的 id 随便写 -->
+                    <id>nexus-plugin</id>
+                    <url>${env.MVN_PRIVATE_PUBLIC_URL}</url>
+                    <releases><enabled>true</enabled></releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                        <!-- ✅ 永远不检查更新, 因为是多个独立的 maven 项目, 项目之间使用 <relativePath/> 来杜绝本地依赖查找, 导致每次使用 mvn 时都会从远端更新快照版本 所以这里设置为禁用更新  -->
+                        <updatePolicy>never</updatePolicy>
+                    </snapshots>
+                </pluginRepository>
+            </pluginRepositories>
+            <!-- @formatter:on -->
+        </profile>
+    </profiles>
+
+</settings>
+

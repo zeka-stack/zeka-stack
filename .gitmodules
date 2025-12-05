@@ -1,0 +1,75 @@
+[submodule ".github"]
+	path = .github
+	url = git@github.com:zeka-stack/.github.git
+[submodule "arco-meta/arco-supreme"]
+	path = arco-meta/arco-supreme
+	url = git@github.com:zeka-stack/arco-supreme.git
+[submodule "arco-meta/arco-processor"]
+	path = arco-meta/arco-processor
+	url = git@github.com:zeka-stack/arco-processor.git
+[submodule "arco-meta/arco-maven-plugin"]
+	path = arco-meta/arco-maven-plugin
+	url = git@github.com:zeka-stack/arco-maven-plugin.git
+[submodule "arco-meta/arco-builder"]
+	path = arco-meta/arco-builder
+	url = git@github.com:zeka-stack/arco-builder.git
+[submodule "blen-kernel"]
+	path = blen-kernel
+	url = git@github.com:zeka-stack/blen-kernel.git
+[submodule "cubo-starter"]
+	path = cubo-starter
+	url = git@github.com:zeka-stack/cubo-starter.git
+[submodule "cubo-starter-examples"]
+	path = cubo-starter-examples
+	url = git@github.com:zeka-stack/cubo-starter-examples.git
+[submodule "domi-suite/domi-auth"]
+	path = domi-suite/domi-auth
+	url = git@github.com:zeka-stack/domi-auth.git
+[submodule "domi-suite/domi-channel"]
+	path = domi-suite/domi-channel
+	url = git@github.com:zeka-stack/domi-channel.git
+[submodule "domi-suite/domi-gateway-lite"]
+	path = domi-suite/domi-gateway-lite
+	url = git@github.com:zeka-stack/domi-gateway-lite.git
+[submodule "domi-suite/domi-gateway"]
+	path = domi-suite/domi-gateway
+	url = git@github.com:zeka-stack/domi-gateway.git
+[submodule "domi-suite/domi-logcat"]
+	path = domi-suite/domi-logcat
+	url = git@github.com:zeka-stack/domi-logcat.git
+[submodule "domi-suite/domi-ums"]
+	path = domi-suite/domi-ums
+	url = git@github.com:zeka-stack/domi-ums.git
+[submodule "domi-suite/domi-uid"]
+	path = domi-suite/domi-uid
+	url = git@github.com:zeka-stack/domi-uid.git
+[submodule "eiko-orch/eiko-apm"]
+	path = eiko-orch/eiko-apm
+	url = git@github.com:zeka-stack/eiko-apm.git
+[submodule "eiko-orch/eiko-jetcache"]
+	path = eiko-orch/eiko-jetcache
+	url = git@github.com:zeka-stack/eiko-jetcache.git
+[submodule "eiko-orch/eiko-nacos"]
+	path = eiko-orch/eiko-nacos
+	url = git@github.com:zeka-stack/eiko-nacos.git
+[submodule "eiko-orch/eiko-schedule"]
+	path = eiko-orch/eiko-schedule
+	url = git@github.com:zeka-stack/eiko-schedule.git
+[submodule "eiko-orch/eiko-sentinel"]
+	path = eiko-orch/eiko-sentinel
+	url = git@github.com:zeka-stack/eiko-sentinel.git
+[submodule "felo-space/felo-mall"]
+	path = felo-space/felo-mall
+	url = git@github.com:zeka-stack/felo-mall.git
+[submodule "felo-space/felo-pay"]
+	path = felo-space/felo-pay
+	url = git@github.com:zeka-stack/felo-pay.git
+[submodule "supports"]
+	path = supports
+	url = git@github.com:zeka-stack/supports.git
+[submodule "zeka-idea-plugin"]
+	path = zeka-idea-plugin
+	url = git@github.com:zeka-stack/zeka-idea-plugin.git
+[submodule "zeka-stack.github.io"]
+	path = zeka-stack.github.io
+	url = git@github.com:zeka-stack/zeka-stack.github.io.git

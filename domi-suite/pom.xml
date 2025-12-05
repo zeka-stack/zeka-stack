@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>dev.dong4j</groupId>
+    <artifactId>domi-suite</artifactId>
+    <version>hello.world</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <!-- <module>domi-gateway</module> -->
+        <!-- <module>domi-gateway-lite</module> -->
+        <!-- <module>domi-auth</module> -->
+        <!-- <module>domi-ums</module> -->
+        <!-- <module>domi-logcat</module> -->
+        <!-- <module>domi-uid</module> -->
+        <!-- <module>domi-channel</module> -->
+    </modules>
+
+    <properties>
+        <maven.install.skip>true</maven.install.skip>
+        <maven.deploy.skip>true</maven.deploy.skip>
+    </properties>
+</project>
