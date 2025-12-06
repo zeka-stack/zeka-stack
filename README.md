@@ -498,7 +498,7 @@ cd felo-space/felo-mall
 
 ## 📄 License
 
-本项目采用 [Apache License 2.0](LICENSE) 开源协议。
+本项目采用 [MIT](https://github.com/zeka-stack/zeka-stack/blob/main/LICENSE) 开源协议。
 
 ---
 
