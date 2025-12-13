@@ -1,0 +1,44 @@
+{
+  "name": "vitepress-plugin-dify",
+  "version": "1.0.0",
+  "description": "A VitePress plugin to embed Dify AI applications into your documentation",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.cjs",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vitepress",
+    "vitepress-plugin",
+    "dify",
+    "ai",
+    "chatbot",
+    "embed"
+  ],
+  "author": "dong4j",
+  "license": "MIT",
+  "peerDependencies": {
+    "vitepress": "^1.0.0 || ^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dong4j/vitepress-plugin-dify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dong4j/vitepress-plugin-dify/issues"
+  },
+  "homepage": "https://github.com/dong4j/vitepress-plugin-dify#readme"
+}
+
