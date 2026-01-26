@@ -1,5 +1,7 @@
 # Repository Guidelines
 
+**每次回复都需要叫我:【dong4j】**
+
 ## 项目结构与模块组织
 
 仓库以多模块与子模块组合的方式组织：核心层按 `arco-meta/`、`blen-kernel/`、`cubo-starter/`、`domi-suite/`、`eiko-orch/`、`felo-space/` 分层，示例位于
