@@ -1,6 +1,7 @@
 # Zeka Stack Context
 
-**每次回答前后回答结束后都需要叫我:【dong4j】**
+1. **每次回答前后回答结束后都需要叫我:【dong4j】**
+2. **我提出的需求必须先给出实现方案并征求确认，确认后才能修改代码**
 
 ## Project Overview
 Zeka Stack is a comprehensive, enterprise-grade Java microservice ecosystem. It provides a full-stack solution ranging from foundational build infrastructure to business-level applications. The name "Zeka" implies "Intelligence Core".
