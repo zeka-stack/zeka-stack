@@ -15,9 +15,9 @@
         <module>blen-kernel</module>
         <module>cubo-starter</module>
         <!-- <module>cubo-starter-examples</module> -->
-        <module>domi-suite</module>
-        <module>eiko-orch</module>
-        <module>felo-space</module>
+        <!--<module>domi-suite</module>-->
+        <!--<module>eiko-orch</module>-->
+        <!--<module>felo-space</module>-->
     </modules>
 
     <properties>
