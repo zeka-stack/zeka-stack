@@ -1,9 +1,6 @@
 # Arco Meta
 
-<div style="text-align: center;">
-
-![Zeka Stack](https://img.shields.io/badge/Zeka%20Stack-core-0B7285?style=flat-square) ![Spring Boot 3.x](https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F?style=flat-square&logo=spring) ![JDK17+](https://img.shields.io/badge/JDK-17%2B-007396?style=flat-square&logo=java) ![AI](https://img.shields.io/badge/AI-enabled-FF6B6B?style=flat-square) ![最佳实践](https://img.shields.io/badge/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-guided-845EC2?style=flat-square) ![测试驱动](https://img.shields.io/badge/%E6%B5%8B%E8%AF%95%E9%A9%B1%E5%8A%A8-TDD-1F7A8C?style=flat-square) ![TDD](https://img.shields.io/badge/TDD-focused-3D5A80?style=flat-square) ![单体架构](https://img.shields.io/badge/%E5%8D%95%E4%BD%93%E6%9E%B6%E6%9E%84-supported-5C7AEA?style=flat-square) ![微服务架构](https://img.shields.io/badge/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84-ready-1B9AAA?style=flat-square)
-</div>
+## 简介
 
 Arco Meta 是 Zeka Stack 的构建基础层集合，提供统一的父 POM、依赖管理、构建插件体系与编译期增强能力。该目录聚合了整个生态的“构建规范与自动化能力”，其他模块通常通过继承父
 POM 或引入插件来复用这些能力。
