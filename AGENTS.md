@@ -29,3 +29,21 @@
 
 提交记录采用 Conventional Commits 风格：`type(scope): 描述`，例如 `feat(kernel): ...`、`fix(build): ...`
 。提交时请描述影响模块与行为变更；合并请求建议包含：变更说明、影响模块列表、必要的运行/测试结果；若涉及可视化或文档变更，请附截图或链接。
+
+
+<claude-mem-context>
+# Memory Context
+
+# claude-mem status
+
+This project has no memory yet. The current session will seed it; subsequent sessions will receive auto-injected context for relevant past work.
+
+Memory injection starts on your second session in a project.
+
+`/learn-codebase` is available if the user wants to front-load the entire repo into memory in a single pass (~5 minutes on a typical repo, optional). Otherwise memory builds passively as work happens.
+
+Live activity: http://localhost:37701
+How it works: `/how-it-works`
+
+This message disappears once the first observation lands.
+</claude-mem-context>
