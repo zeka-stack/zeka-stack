@@ -41,6 +41,7 @@ supports/skills/
 ```text
 supports/skills/send-email-batch/
 supports/skills/zeka-starter-skill-builder/
+supports/skills/zeka-stack-business-dev/
 ```
 
 当任务涉及为 Zeka Stack 的 `*-starter` 生成或维护 SkillsJars `SKILL.md` 时，应优先阅读：
